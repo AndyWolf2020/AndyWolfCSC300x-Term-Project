@@ -1,0 +1,88 @@
+#heading {
+    display: flex;
+    background-color: indigo;
+    padding: 1%;
+    height: 800px;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.title {
+    padding: 1%;
+    display: flex;
+    height: 5%;
+    width: 59%;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1%;
+    border-color: black;
+    border-style: solid;
+    font-family: Impact;
+    background-color:rgb(0,0,0,0.2)
+}
+
+nav {
+    padding: 1%;
+    font-size: 20px;
+    border-color: black;
+    border-style: solid;
+    height: 5%;
+    font-family: Impact;
+    background-color:rgb(0,0,0,0.2)
+}
+
+a {
+    color: black;
+}
+
+input[type="text"] {
+    padding: 1%;
+    width: 470px;
+    font-size: 20px;
+}
+
+button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+}
+
+.intro{
+    font-family:impact;
+    font-size: 20px;
+    text-align:center;
+    background-color:rgb(0,0,0,0.2);
+}
+
+.images{
+    padding:1%;
+    height:65%;
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+
+img{
+    padding:5%;
+    max-width:35%;
+    max-height:35%;
+}
+
+footer{
+    height:5%;
+    display:flex;
+    width:100%;
+    justify-content:space-around;
+    background-color:rgb(0,0,0,0.2);
+    align-items:center;
+}
