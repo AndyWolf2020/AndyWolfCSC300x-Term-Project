@@ -1,8 +1,11 @@
-#homepage {
+#homepage,
+#products,
+#details,
+#cart {
     display: flex;
-    background-image:url(/images/gameboy.jpg);
-    background-size:cover;
-    background-position:center;
+    background-image: url(/AndyWolfCSC300x-Term-Project/images/gameboy.jpg);
+    background-size: cover;
+    background-position: center;
     height: 100%;
     flex-wrap: wrap;
     align-content: flex-start;
@@ -46,11 +49,11 @@ a {
 }
 
 #search {
-    display:flex;
+    display: flex;
     padding: 1%;
-    width:100%;
-    height:5%;
-    opacity:0.7;
+    width: 100%;
+    height: 5%;
+    opacity: 0.7;
 }
 
 input[type="text"] {
@@ -70,22 +73,36 @@ button {
 }
 
 .intro {
-    padding:10px;
+    padding: 10px;
     font-family: impact;
     font-size: 50px;
     text-align: center;
     background-color: rgb(0, 0, 0, 0.2);
-    animation-name:animation;
-    animation-duration:10s;
-    animation-iteration-count:infinite;
+    animation-name: animation;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
 }
 
-@keyframes animation{
-    0% {color:red;}
-    25% {color:blue;}
-    50% {color:green;}
-    75% {color:yellow;}
-    100% {color:red;}
+@keyframes animation {
+    0% {
+        color: red;
+    }
+
+    25% {
+        color: blue;
+    }
+
+    50% {
+        color: green;
+    }
+
+    75% {
+        color: yellow;
+    }
+
+    100% {
+        color: red;
+    }
 }
 
 .images {
@@ -103,6 +120,63 @@ img {
     max-height: 35%;
 }
 
+#cart_title {
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    border-style: solid;
+    border-color: black;
+}
+
+table,
+th,
+td {
+    width: 100%;
+    border-style: solid;
+    border-color: black;
+    font-size: 40px;
+}
+
+.game_title {
+    width: 25%;
+}
+
+.game_image {
+    width: 50%;
+}
+
+.game_price {
+    width: 10%;
+}
+
+.quantity {
+    width: 15%;
+}
+
+.submit_button,
+.remove_button {
+    background: black;
+    color: white;
+    display: inline-block;
+    font-size: 20px;
+    text-align: center;
+    padding: 1px;
+    cursor: pointer;
+    height: 30px;
+    width: 40%;
+}
+
+#total {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    background-color: rgb(0, 0, 0, 0.2);
+    align-items: center;
+    border-style: solid;
+    border-color: black;
+    font-size: 20px;
+}
+
 footer {
     height: 5%;
     display: flex;
@@ -110,5 +184,77 @@ footer {
     justify-content: space-around;
     background-color: rgb(0, 0, 0, 0.2);
     align-items: center;
-    flex-direction:row-reverse
+    flex-direction: row-reverse
 }
+
+#item {
+    width: 100%;
+    display: flex;
+    height: 70%;
+    flex-wrap: wrap;
+}
+
+#item_name {
+    width: 100%;
+    font-size: 30px;
+    border-style: solid;
+}
+
+#item_img {
+    width: 70%;
+    height: 70%;
+    padding: 0%;
+}
+
+#add_to_cart {
+    margin-left: 75%;
+    margin-bottom: 1%;
+    align-self: flex-end;
+}
+
+#description,
+#item_price,
+#item_consoles,
+#additional_info {
+    font-size: 30px;
+    border-style: solid;
+    border-color: black;
+    margin-top: 1%;
+}
+
+#item_price {
+    margin-left: 91%;
+}
+
+.items {
+    width:33%;
+}
+
+.name, .item_price {
+    font-size:20px;
+    justify-content:start;
+}
+
+#controls {
+    width:100%;
+    display:flex;
+    justify-content: flex-end;
+    margin-right:10%;
+}
+
+#filters {
+    font-size:18px;
+}
+
+a:link { 
+    text-decoration: none; 
+  } 
+  a:visited { 
+    text-decoration: none; 
+  } 
+  a:hover { 
+    text-decoration: none; 
+  } 
+  a:active { 
+    text-decoration: none; 
+  }

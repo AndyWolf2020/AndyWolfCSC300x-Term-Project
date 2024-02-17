@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Vintage Videogames</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <div id="cart">
+        <div id="header">
+            <header class="title"><a href="index.html">Vintage Videogames</a></header>
+            <nav><a href="index.html">Home</a></nav>
+            <nav><a href="products.html">Store</a></nav>
+            <nav><a href="#">Sign In</a></nav>
+        </div>
+        <div id="search">
+            <input type="text" placeholder="Search">
+            <button>Go</button>
+        </div>
+        <h3 id="cart_title">Cart</h3>
+        <table id="shopping_cart">
+            <tr>
+                <th class="game_title">Game Title</th>
+                <th class="game_image">Image</th>
+                <th class="game_price">Price</th>
+                <th class="quantity">Quantity</th>
+            </tr>
+            <tr> 
+                <td class="game_title">Fire Emblem: Shadow Dragon</td>
+                <td class="game_image"><img src="/AndyWolfCSC300x-Term-Project/images/ds.jpg"></td>
+                <td class="game_price">$60</td>
+                <td class="quantity"><input type="text" placeholder="1"><button class="submit_button" type="submit">Submit</button>
+                    <button class="remove_button" type="submit" placeholder="Remove">Remove</button></td>
+            </tr>
+            <tr>
+                <td class="game_title">Super Mario Bros</td>
+                <td class="game_image"><img src="/AndyWolfCSC300x-Term-Project/images/mario.jpg"></td>
+                <td class="game_price">$60</td>
+                <td class="quantity"><input type="text" placeholder="2"><button class="submit_button" type="submit">Submit</button>
+                    <button class="remove_button" type="submit">Remove</button></td>
+            </tr>
+        </table>
+        <div id="total">
+            <p>Item Total: $180</p>
+            <p>Tax: 6.75%</p>
+            <p>Delivery Fee: $15</p>
+            <p>Service Fee: $10</p>
+            <p>Total: $217.15</p>
+            <button class="submit_button" type="submit">Checkout</button>
+        </div>
+        <footer>
+            <p class="copyright">&copy 2024 Vintage Videogames</p>
+            <p class="email">www.example@gmail.com</p>
+            <p class="phone">phone:(555)555-555</p>
+        </footer>
+    </div>
+</body>
+
+</html>
