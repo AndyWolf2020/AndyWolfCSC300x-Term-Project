@@ -3,7 +3,7 @@
 #details,
 #cart {
     display: flex;
-    background-image: url(/AndyWolfCSC300x-Term-Project/images/gameboy.jpg);
+    background-image: url(images/gameboy.jpg);
     background-size: cover;
     background-position: center;
     height: 100%;
@@ -19,7 +19,6 @@
     width: 100%;
     flex-wrap: wrap;
     align-content: flex-start;
-
 }
 
 .title,

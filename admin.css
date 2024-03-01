@@ -1,0 +1,73 @@
+#product_edit, #bulk_upload{
+    display: flex;
+    height: 100%;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    width: 100%;
+}
+
+#header {
+    display: flex;
+    padding: 1%;
+    height: 5%;
+    width: 100%;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.title,
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1%;
+    border-color: black;
+    border-style: solid;
+    font-family: Impact;
+    background-color: rgb(0, 0, 0, 0.2)
+}
+
+.title {
+    width: 66%;
+    font-size: 30px;
+}
+
+nav {
+    font-size: 20px;
+    width: 10%
+}
+
+a {
+    color: black;
+}
+
+#category_container{
+    width:100%;
+    display:flex;
+    justify-content: flex-end;
+    margin-right:10%;
+    margin-bottom:5%;
+}
+
+#category_submit{
+    margin-left:10px;
+}
+
+#products{
+    display:flex;
+    justify-content:space-between;
+    width:100%;
+    height:70%;
+    margin-left:10%;
+}
+
+#new_product, #existing_products{
+    display:flex;
+    flex-direction:column;
+    width:100%;
+    height:50%;
+}
+
+input{
+    width:50%;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Vintage Videogames: Admin Page</title>
+    <link rel="stylesheet" href="admin.css" />
+</head>
+
+<body>
+    <div id="bulk_upload">
+        <div id="header">
+            <header class="title">Vintage Videogames: Admin View</header>
+            <nav><a href="bulk.html">Bulk Upload</a></nav>
+            <nav><a href="edit.html">Product Edits</a></nav>
+            <nav><a href="#">Sign In</a></nav>
+        </div>
+        <div>
+            <form id="upload">
+                <label for="file">Select JSON, CSV or TXT file to upload:</label><br>
+                <input type="file" id="file" value="Choose File" required><br><br>
+                <input type="submit" value="Submit">
+            </form>
+            <p>Some examples of acceptable files are example.json, example.csv or example.txt</p>
+        </div>
+    </div>
+</body>
+
+</html>
