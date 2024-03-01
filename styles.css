@@ -241,7 +241,7 @@ footer {
     margin-right:10%;
 }
 
-#filters {
+.filters, #filter {
     font-size:18px;
 }
 

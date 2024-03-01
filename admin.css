@@ -4,6 +4,10 @@
     flex-wrap: wrap;
     align-content: flex-start;
     width: 100%;
+    background-image: url(images/admin.jpg);
+    background-size:auto;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 #header {
@@ -68,6 +72,27 @@ a {
     height:50%;
 }
 
+#existing_products{
+    margin-left:40%;
+}
+
 input{
     width:50%;
+}
+
+.form_title{
+    margin-left:10%;
+}
+
+p{
+    font-size: 20px;
+}
+
+#upload{
+    margin-left:20%;
+    margin-top:10%;
+}
+
+#submit_file, #file_label, #file{
+    font-size:20px;
 }

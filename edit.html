@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <title>Vintage Videogames: Admin Page</title>
-    <link rel="stylesheet" href="admin.css" />
+    <link rel="stylesheet" href="admin.css">
 </head>
 
 <body>
@@ -22,6 +22,7 @@
         </div>
         <div id="products">
             <form id="new_product">
+                <p class="form_title">New Product</p>
                 <label for="new_id">Product ID: </label>
                 <input type="number" id="new_id" required><br>
                 <label for="new_name">Product Name: </label>
@@ -37,14 +38,13 @@
                 <input type="submit">
             </form>
             <form id="existing_products">
+                <p class="form_title">Existing Products</p>
                 <label for="existing_id">Product ID: </label>
                 <input type="number" id="existing_id" value="12345" disabled><br>
                 <label for="existing_name">Product Name: </label>
                 <input type="text" id="existing_name" value="Super Mario Bros"><br>
                 <label for="existing_desc">Product Description: </label>
-                <input type="text" id="existing_desc" value="Super Mario Bros. is a platform game. In the game, Mario must race through the 
-                Mushroom Kingdom and save Princess Toadstool. Bowser has kidnapped Princess Toadstool, who is the princess of the Mushroom 
-                Kingdom. Mario must chase Bowser through eight worlds in the Mushroom Kingdom to rescue her, with the help of his brother, Luigi"><br>
+                <input type="text" id="existing_desc" value="Super Mario Bros. is a platform game where Mario saves Princess Peach from Bowser"><br>
                 <label for="existing_category">Product Category: </label>
                 <input type="text" id="existing_category" value="Mario"><br>
                 <label for="existing_image">Product Image: </label>
